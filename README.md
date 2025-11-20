@@ -29,8 +29,8 @@ Die folgende Struktur organisiert CISO-Tätigkeiten nach ihrer systemischen Funk
 
 - [Anmerkung zur OS-Metapher](#anmerkung-zur-os-metapher)
 
-
 ## System Core & Access
+[back to top](#ciso-os-)
 
 ### Kernel, Boot & System Security
 
@@ -105,6 +105,7 @@ Das Berechtigungssystem des CISO OS – steuert, wer welche Ressourcen unter wel
 ---
 
 ## Security Operations & Intelligence
+[back to top](#ciso-os-)
 
 ### Security Operations Center (SOC)
 
@@ -237,6 +238,7 @@ Das Quality Assurance und Testing-Framework – validiert Sicherheitskontrollen 
 ---
 
 ## Cyber Resilience & Defense
+[back to top](#ciso-os-)
 
 ### Cyber Resilience Strategy
 
@@ -355,6 +357,7 @@ Das System-Maintenance und Configuration-Management – hält Sicherheitsstandar
 ---
 
 ## Strategic Governance & Leadership
+[back to top](#ciso-os-)
 
 ### Risk & Compliance Management
 
@@ -579,6 +582,7 @@ Das Logging und Audit-Trail-System – dokumentiert alle sicherheitsrelevanten A
 ---
 
 ## Technology Architecture & Innovation
+[back to top](#ciso-os-)
 
 ### Enterprise Security Architecture
 
@@ -701,6 +705,7 @@ Das Innovation-Security-Modul – bewertet und sichert aufkommende Technologien 
 ---
 
 ## Workforce, Culture & Organization
+[back to top](#ciso-os-)
 
 ### Security Culture & Change Management
 
@@ -851,6 +856,7 @@ Das Team-Health-Management – erhält Leistungsfähigkeit und Wohlbefinden des 
 ---
 
 ## External Ecosystem & Specialized Systems
+[back to top](#ciso-os-)
 
 ### Vendor & Supply Chain Security
 
@@ -927,6 +933,7 @@ Das Physical-Security-Layer – schützt physische Assets und kontrolliert Gebä
 ---
 
 ## Updates & Community-Contributions
+[back to top](#ciso-os-)
 
 **Letzte Aktualisierung:** 	2025-11-20  
 **Maintainer:** 					  cybersecmvo  
@@ -949,6 +956,7 @@ Die Metapher dient einem praktischen Zweck: Sie hilft dabei, die vielfältigen C
 **Also: Ja, wir übertreiben ein bisschen mit den OS-Begriffen. Nein, du musst kein Assembler können, um hier fündig zu werden. Und ja, wenn du beim Lesen schmunzelst, haben wir alles richtig gemacht.**
 
 Die Inhalte – Tools, Templates, Frameworks, Best Practices – sind dabei 100% ernst gemeint und praxiserprobt. Nur die Verpackung ist etwas... nerdiger als üblich.
+[back to top](#ciso-os-)
 
 
-**Quick Navigation:** [Zurück zur Hauptseite](../README.md) | [Tools](../README.md) | [Templates](../README.md) | [Guides](../README.md)
+**Quick Navigation:** [Zurück zur Hauptseite](#ciso-os-) | [Tools](#ciso-os-) | [Templates](#ciso-os-) | [Guides](#ciso-os-)
