@@ -36,71 +36,17 @@ Die folgende Struktur organisiert CISO-Tätigkeiten nach ihrer systemischen Funk
 
 Die fundamentale Sicherheitsschicht – vergleichbar mit dem Betriebssystem-Kernel, der direkte Hardware-Kontrolle ausübt und grundlegende Sicherheitsmechanismen bereitstellt.
 
-#### Patch-Management
-
-#### Kernel-Härtung
-
-#### Vulnerability Assessment
-
-#### Secure Boot
-
-#### TPM
-
-#### Hardware-Security
-
-#### System Calls
-
-#### APIs
-
-#### Driver-Zertifizierung
-
 ---
 
 ### Process, Memory & Storage Management
 
 Überwachung und Absicherung von Prozessen, Speicher und Datenträgern – die Ressourcenverwaltung des CISO OS.
 
-#### Prozess-Überwachung
-
-#### Anomalie-Erkennung
-
-#### Memory-Leak-Monitoring
-
-#### Exploit-Mitigation
-
-#### File System Security
-
-#### Data Classification
-
-#### Verschlüsselung
-
-#### I/O-Monitoring
-
 ---
 
 ### Identity & Access Management
 
 Das Berechtigungssystem des CISO OS – steuert, wer welche Ressourcen unter welchen Bedingungen nutzen darf.
-
-#### IAM
-
-#### Authentication
-
-#### Authorization
-
-#### MFA
-
-#### PAM
-
-#### Secure Remote Access
-
-#### Least Privilege
-
-#### Access Reviews
-
-#### RBAC/MAC/DAC
-
-#### Segregation of Duties
 
 ---
 
@@ -111,37 +57,11 @@ Das Berechtigungssystem des CISO OS – steuert, wer welche Ressourcen unter wel
 
 Die zentrale Steuerungseinheit für Security-Operations – vergleichbar mit einem Process Scheduler, der kontinuierlich Sicherheitsereignisse verarbeitet und priorisiert.
 
-#### SOC-Design
-
-#### 24/7-Operations
-
-#### Tool Integration
-
-#### Playbook Development
-
-#### Alert Triage
-
-#### Security Orchestration
-
-#### Run-the-Business Operations
-
 ---
 
 ### Threat Detection & Exposure Management
 
 Das Monitoring-Subsystem – überwacht kontinuierlich alle System-Events und identifiziert potenzielle Bedrohungen.
-
-#### SIEM
-
-#### Intrusion Detection
-
-#### Threat Hunting
-
-#### Continuous Threat Exposure Management (CTEM)
-
-#### Attack Surface Management
-
-#### Anomalie Detection
 
 ---
 
@@ -149,37 +69,11 @@ Das Monitoring-Subsystem – überwacht kontinuierlich alle System-Events und id
 
 Die Wissensdatenbank und Analyse-Engine – sammelt, korreliert und interpretiert Security-relevante Informationen.
 
-#### Threat Intel Feeds
-
-#### IoCs
-
-#### Threat Actor Tracking
-
-#### Security Analytics
-
-#### Machine Learning
-
-#### Security Data Science
-
-#### Predictive Analysis
-
 ---
 
 ### Security Automation & Orchestration
 
 Das Automatisierungs-Framework – reduziert manuelle Prozesse durch intelligente Workflow-Orchestrierung.
-
-#### SOAR
-
-#### Automated Response
-
-#### Workflow Automation
-
-#### Integration Automation
-
-#### Alert Correlation
-
-#### Process Automation
 
 ---
 
@@ -187,53 +81,18 @@ Das Automatisierungs-Framework – reduziert manuelle Prozesse durch intelligent
 
 Das System-Update und Patch-Management-Subsystem – identifiziert Schwachstellen und verwaltet deren Behebung.
 
-#### Vulnerability Scanning
-
-#### Prioritization
-
-#### Remediation Tracking
-
-#### Patch Management
-
-#### Exposure Validation
-
-#### Bug Management
-
 ---
 
 ### Incident Response & Crisis Management
 
 Der Exception Handler des CISO OS – greift bei kritischen Sicherheitsvorfällen und verhindert System-Crashes.
 
-#### IR-Playbooks
-
-#### Crisis Management
-
-#### NIST CSF Respond & Recover
-
-#### Post-Incident Analysis
-
-#### Crisis Communication
-
-#### Forensics
 
 ---
 
 ### Security Testing & Validation
 
 Das Quality Assurance und Testing-Framework – validiert Sicherheitskontrollen durch simulierte Angriffe.
-
-#### Red Team
-
-#### Purple Team
-
-#### Penetration Testing
-
-#### Attack Path Validation
-
-#### Security Control Testing
-
-#### Adversary Simulation
 
 ---
 
@@ -244,35 +103,11 @@ Das Quality Assurance und Testing-Framework – validiert Sicherheitskontrollen 
 
 Das Disaster Recovery und Business Continuity-Modul – stellt sicher, dass das System auch nach schwerwiegenden Incidents weiterbetrieben werden kann.
 
-#### Resilience Framework
-
-#### Assume Breach Mindset
-
-#### Resilience Testing
-
-#### Recovery Orchestration
-
-#### Resilience Metrics
-
-#### Operational Resilience Planning
-
 ---
 
 ### Cryptography & Data Protection
 
 Das Verschlüsselungs-Subsystem – schützt Daten at-rest und in-transit durch kryptographische Verfahren.
-
-#### Verschlüsselung
-
-#### Key Management
-
-#### Crypto-Agility
-
-#### Memory Protection
-
-#### Exploit Prevention
-
-#### Data-at-Rest/in-Transit Protection
 
 ---
 
@@ -280,39 +115,11 @@ Das Verschlüsselungs-Subsystem – schützt Daten at-rest und in-transit durch 
 
 Die Netzwerk-Schicht – kontrolliert Traffic-Flüsse und isoliert kritische Bereiche durch Segmentierung.
 
-#### Firewall Management
-
-#### Network Segmentation
-
-#### Micro-Segmentation
-
-#### DMZ
-
-#### Perimeter Defense
-
-#### Network Monitoring
-
-#### SD-WAN Security
-
 ---
 
 ### Zero Trust & Isolation
 
 Das moderne Sicherheitsarchitektur-Modell – geht von keinem impliziten Vertrauen aus und verifiziert kontinuierlich.
-
-#### Zero Trust Architecture
-
-#### ZTNA
-
-#### Container Security
-
-#### Sandboxing
-
-#### Application Isolation
-
-#### Zero Trust Maturity
-
-#### Identity-Centric Security
 
 ---
 
@@ -320,39 +127,11 @@ Das moderne Sicherheitsarchitektur-Modell – geht von keinem impliziten Vertrau
 
 Das Backup und Restore-System – garantiert Datenintegrität und ermöglicht Wiederherstellung nach Datenverlust.
 
-#### Backup-Strategien (3-2-1)
-
-#### Immutable Backups
-
-#### RTO/RPO
-
-#### DR-Pläne
-
-#### BCP
-
-#### Failover
-
-#### Ransomware Defense
-
-#### Third-Party Resilience
-
 ---
 
 ### Security Hygiene & Posture Management
 
 Das System-Maintenance und Configuration-Management – hält Sicherheitsstandards aufrecht und erkennt Abweichungen.
-
-#### Security Baselines
-
-#### Configuration Management
-
-#### Drift Detection
-
-#### Posture Scoring
-
-#### Hygiene Metrics
-
-#### Compliance Automation
 
 ---
 
@@ -363,47 +142,11 @@ Das System-Maintenance und Configuration-Management – hält Sicherheitsstandar
 
 Das Governance-Layer – stellt Compliance mit regulatorischen Anforderungen sicher und managt Risiken systematisch.
 
-#### Risk Assessments
-
-#### Risk Register
-
-#### Risk Appetite
-
-#### Threat Modeling
-
-#### Risk Quantification (FAIR)
-
-#### GDPR
-
-#### ISO 27001
-
-#### NIS2
-
-#### DORA
-
-#### CRA
-
-#### Compliance Audits
-
-#### Security Debt Management
-
 ---
 
 ### Security Governance & Policy
 
 Das Policy-Framework – definiert Sicherheitsrichtlinien und deren Durchsetzung organisationsweit.
-
-#### Security Governance Framework
-
-#### Policy Development
-
-#### Security Standards
-
-#### Security Committee
-
-#### Regulatory Compliance
-
-#### Audit Coordination
 
 ---
 
@@ -411,35 +154,11 @@ Das Policy-Framework – definiert Sicherheitsrichtlinien und deren Durchsetzung
 
 Die Management-Interface – übersetzt technische Security-Themen in Business-Sprache für Entscheidungsträger.
 
-#### Board Reporting
-
-#### SEC Disclosure
-
-#### Cyber Risk Quantification for Executives
-
-#### Stakeholder Communication
-
-#### Material Incident Reporting
-
-#### Executive Dashboards
-
 ---
 
 ### Strategic Business Security
 
 Das Business Enablement-Modul – verbindet Sicherheit mit Geschäftsstrategie und schafft Wettbewerbsvorteile.
-
-#### Business Enablement
-
-#### Digital Transformation Security
-
-#### Security as Competitive Advantage
-
-#### Customer Trust
-
-#### Brand Protection
-
-#### M&A Security Due Diligence
 
 ---
 
@@ -447,35 +166,11 @@ Das Business Enablement-Modul – verbindet Sicherheit mit Geschäftsstrategie u
 
 Das Budget und Investment-Management – quantifiziert Sicherheitswert und rechtfertigt Investitionen.
 
-#### ROI Quantification
-
-#### Business Value Metrics
-
-#### Cost-Benefit Analysis
-
-#### Budget Justification
-
-#### Security Investment Portfolio
-
-#### Business Case Development
-
 ---
 
 ### AI Governance & Ethics
 
 Das AI-Governance-Framework – managt Risiken und ethische Aspekte von KI-Systemen.
-
-#### AI Risk Management (NIST AI RMF)
-
-#### EU AI Act Compliance
-
-#### Responsible AI
-
-#### AI Ethics
-
-#### AI Model Governance
-
-#### GenAI Policy Framework
 
 ---
 
@@ -483,35 +178,11 @@ Das AI-Governance-Framework – managt Risiken und ethische Aspekte von KI-Syste
 
 Das Corporate Responsibility-Modul – verbindet Cybersecurity mit ESG-Zielen und Nachhaltigkeit.
 
-#### ESG Reporting (Cyber)
-
-#### Sustainability & Security
-
-#### Corporate Responsibility
-
-#### ESG Disclosure
-
-#### Investor Relations
-
 ---
 
 ### Data Privacy & Protection
 
 Das Privacy-Subsystem – schützt personenbezogene Daten und setzt Datenschutzanforderungen um.
-
-#### Privacy by Design
-
-#### Data Subject Rights
-
-#### Cross-Border Data Transfers
-
-#### DLP Strategy
-
-#### Data Classification
-
-#### Exfiltration Prevention
-
-#### GDPR/DSGVO Compliance
 
 ---
 
@@ -519,33 +190,11 @@ Das Privacy-Subsystem – schützt personenbezogene Daten und setzt Datenschutza
 
 Das Performance-Monitoring – misst Sicherheitseffektivität durch aussagekräftige Metriken.
 
-#### Security Dashboards
-
-#### KPIs
-
-#### Meaningful Metrics
-
-#### Leading/Lagging Indicators
-
-#### Performance Measurement
-
-#### Executive Reporting
-
 ---
 
 ### Tool Strategy & Platform Optimization
 
 Das Platform-Management – optimiert die Security-Tool-Landschaft und vermeidet Tool-Sprawl.
-
-#### Platform Consolidation
-
-#### Tool Portfolio Management
-
-#### Security Stack Optimization
-
-#### Vendor Rationalization
-
-#### Integration Architecture
 
 ---
 
@@ -553,31 +202,11 @@ Das Platform-Management – optimiert die Security-Tool-Landschaft und vermeidet
 
 Das Accountability-Framework – klärt Verantwortlichkeiten und managt persönliche Haftungsrisiken.
 
-#### CISO Personal Liability
-
-#### D&O Insurance
-
-#### Risk Decision Documentation
-
-#### Accountability Framework
-
-#### Role Boundaries
-
 ---
 
 ### Audit & Logging
 
 Das Logging und Audit-Trail-System – dokumentiert alle sicherheitsrelevanten Aktivitäten für Compliance und Forensik.
-
-#### Log Management
-
-#### SIEM Integration
-
-#### Retention Policies
-
-#### Audit Trails
-
-#### Forensic Readiness
 
 ---
 
@@ -588,39 +217,11 @@ Das Logging und Audit-Trail-System – dokumentiert alle sicherheitsrelevanten A
 
 Das Architecture-Framework – definiert technische Sicherheitsstandards und Design-Patterns.
 
-#### Architecture Framework
-
-#### Reference Architecture
-
-#### Architecture Reviews
-
-#### Technology Standards
-
-#### Design Patterns
-
-#### Zero Trust Design
-
-#### Solution Architecture
-
 ---
 
 ### Cloud & Multi-Cloud Security
 
 Das Cloud-Security-Modul – sichert Cloud-Infrastrukturen und -Services über verschiedene Provider hinweg.
-
-#### Cloud Security Architecture
-
-#### IaaS/PaaS/SaaS Security
-
-#### Multi-Cloud Strategy
-
-#### CASB
-
-#### Serverless Security
-
-#### Edge Computing
-
-#### Cloud-Native Security
 
 ---
 
@@ -628,41 +229,11 @@ Das Cloud-Security-Modul – sichert Cloud-Infrastrukturen und -Services über v
 
 Das CI/CD-Security-Framework – integriert Sicherheit in Entwicklungs- und Deployment-Pipelines.
 
-#### Security in CI/CD
-
-#### Shift-Left Security
-
-#### IaC Security
-
-#### Container & Kubernetes Security
-
-#### Registry Security
-
-#### Security-as-Code
-
 ---
 
 ### Application Security
 
 Das Application-Security-Modul – schützt Anwendungen über ihren gesamten Lebenszyklus.
-
-#### SSDLC
-
-#### Secure Coding
-
-#### SAST/DAST/IAST
-
-#### OWASP Top 10
-
-#### WAF
-
-#### API Security
-
-#### SCA
-
-#### Dependency Management
-
-#### Bug Bounty Programs
 
 ---
 
@@ -670,37 +241,11 @@ Das Application-Security-Modul – schützt Anwendungen über ihren gesamten Leb
 
 Das AI-Security-Framework – schützt KI-Systeme vor spezifischen Angriffen und Missbrauch.
 
-#### LLM Security
-
-#### Prompt Injection Prevention
-
-#### AI Technical Security
-
-#### Model Poisoning Prevention
-
-#### Shadow AI Detection
-
-#### AI Supply Chain Security
-
 ---
 
 ### Emerging Technologies Security
 
 Das Innovation-Security-Modul – bewertet und sichert aufkommende Technologien frühzeitig.
-
-#### Quantum Computing Security
-
-#### Blockchain/Web3
-
-#### Metaverse
-
-#### 5G/6G
-
-#### Biometrics
-
-#### Technology Trend Monitoring
-
-#### Innovation Security
 
 ---
 
@@ -711,33 +256,11 @@ Das Innovation-Security-Modul – bewertet und sichert aufkommende Technologien 
 
 Das Culture-Management-Modul – formt Sicherheitsbewusstsein und treibt kulturellen Wandel.
 
-#### Security Culture Building
-
-#### Behavior Change Programs
-
-#### Organizational Change Management
-
-#### Human-Centric Design
-
-#### Culture Metrics
-
-#### Security Champions
-
 ---
 
 ### Security Awareness & Training
 
 Das Training und Education-System – schult Mitarbeiter kontinuierlich in Security-Themen.
-
-#### Security Training Programs
-
-#### Phishing Simulations
-
-#### Continuous Education
-
-#### Role-Based Training
-
-#### Onboarding Security
 
 ---
 
@@ -745,39 +268,11 @@ Das Training und Education-System – schult Mitarbeiter kontinuierlich in Secur
 
 Das Remote-Work-Security-Framework – sichert verteilte Arbeitsumgebungen und Endpoints.
 
-#### Remote Work Policies
-
-#### Hybrid Work Security
-
-#### Home Office Guidelines
-
-#### VPN Strategy
-
-#### Secure Collaboration
-
-#### EDR/XDR
-
-#### BYOD
-
-#### Mobile Security
-
 ---
 
 ### Insider Threat & Human Risk
 
 Das Human Risk Management – erkennt und mitigiert Risiken durch interne Akteure.
-
-#### User Behavior Analytics
-
-#### Privileged User Monitoring
-
-#### Anti-Phishing
-
-#### BEC Prevention
-
-#### Exit Processes
-
-#### Social Engineering Defense
 
 ---
 
@@ -785,39 +280,11 @@ Das Human Risk Management – erkennt und mitigiert Risiken durch interne Akteur
 
 Das Organization-Framework – strukturiert die Security-Funktion optimal im Unternehmen.
 
-#### Operating Model Design
-
-#### Federated vs. Centralized Models
-
-#### Organization Structure
-
-#### Security Function Placement
-
-#### Span of Control
-
 ---
 
 ### Team Leadership & Development
 
 Das Team-Management – führt, entwickelt und bindet Security-Talente.
-
-#### Team Structure
-
-#### Hiring
-
-#### Performance Management
-
-#### Retention
-
-#### Career Development
-
-#### Skills Gap Analysis
-
-#### Certifications
-
-#### Mentoring
-
-#### Upskilling
 
 ---
 
@@ -825,33 +292,11 @@ Das Team-Management – führt, entwickelt und bindet Security-Talente.
 
 Das Stakeholder-Interface – managt Beziehungen zu internen und externen Partnern.
 
-#### Executive Stakeholder Management
-
-#### Cross-Functional Collaboration
-
-#### Business Unit Partnerships
-
-#### Influence without Authority
-
-#### C-Suite Relationships
-
 ---
 
 ### Team Resilience & Well-being
 
 Das Team-Health-Management – erhält Leistungsfähigkeit und Wohlbefinden des Security-Teams.
-
-#### Burnout Prevention
-
-#### Mental Health Support
-
-#### Work-Life Balance
-
-#### Team Sustainability
-
-#### Stress Management
-
-#### On-Call Rotation
 
 ---
 
@@ -862,37 +307,11 @@ Das Team-Health-Management – erhält Leistungsfähigkeit und Wohlbefinden des 
 
 Das Third-Party-Risk-Management – sichert externe Abhängigkeiten und Lieferketten.
 
-#### Vendor Assessments
-
-#### SLA Management
-
-#### Fourth-Party Risk
-
-#### SBOM
-
-#### Supply Chain Attack Prevention
-
-#### Third-Party Access
-
-#### Supplier Standards
-
 ---
 
 ### OT & Industrial Control Systems
 
 Das Industrial-Security-Modul – schützt operative Technologie und kritische Infrastruktur.
-
-#### SCADA Security
-
-#### ICS Security
-
-#### OT Network Segmentation
-
-#### OT/IT Convergence
-
-#### Critical Infrastructure Protection
-
-#### Safety vs. Security Balance
 
 ---
 
@@ -900,35 +319,11 @@ Das Industrial-Security-Modul – schützt operative Technologie und kritische I
 
 Das IoT-Security-Framework – managt Sicherheit vernetzter Geräte im Enterprise-Umfeld.
 
-#### IoT Device Management
-
-#### IoT Network Security
-
-#### Embedded Systems Security
-
-#### Smart Device Policies
-
-#### Consumer vs. Industrial IoT
-
 ---
 
 ### Physical & Environmental Security
 
 Das Physical-Security-Layer – schützt physische Assets und kontrolliert Gebäudezugang.
-
-#### Physical Access Control
-
-#### Badge Systems
-
-#### Visitor Management
-
-#### Data Center Security
-
-#### Environmental Monitoring
-
-#### Asset Management
-
-#### Secure Disposal
 
 ---
 
