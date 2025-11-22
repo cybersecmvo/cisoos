@@ -1,4 +1,4 @@
-![CISO OS](CISOOS_logo_transparent512.png)
+![CISO OS](images/CISOOS_logo_transparent512.png)
 # CISO OS *
 [![GitHub last commit](https://img.shields.io/github/last-commit/cybersecmvo/cisoos)](https://github.com/cybersecmvo/cisoos/commits/main)
 [![GitHub issues](https://img.shields.io/github/issues/cybersecmvo/cisoos)](https://github.com/cybersecmvo/cisoos/issues)
